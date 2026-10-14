@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files (Python cache)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code environment and settings files
+.vscode/
+.vs/
+*.code-workspace
+
+# Operating System specific files
+.DS_Store
+Thumbs.db
+
+# Virtual Environments (Agar aap venv use karein)
+venv/
+.venv/
+env/
