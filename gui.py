@@ -321,5 +321,3 @@ send_button.pack(side="right")
 message_entry.bind("<Return>", lambda event: send_message())
 
 root.mainloop()
-
-# yeah code ha sara daikh la ab
