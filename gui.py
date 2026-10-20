@@ -67,12 +67,12 @@ class LANChatGUI:
         self.chat.pack(side="left",fill="both",expand=True); scroll.pack(side="right",fill="y")
         
         # Configure WhatsApp Style Formatting Tags
-        self.chat.tag_configure("system", justify="center", foreground="#2df078", font=("Segoe UI", 9, "italic"), spacing1=6, spacing3=6)
+        self.chat.tag_configure("system", justify="center", foreground="#222425", font=("Segoe UI", 9, "italic"), spacing1=6, spacing3=6)
         self.chat.tag_configure("private", foreground="#861da8")
         
         # Sent Messages (Green - Right Side)
-        self.chat.tag_configure("msg_sent", justify="right", foreground="#111b21", background="#d9fdd3", 
-                                lmargin1=150, lmargin2=150, rmargin=10, spacing1=4, spacing3=4)
+        self.chat.tag_configure("msg_sent", justify="right", foreground="#111b21", background="#81E091", 
+                                lmargin1=150, lmargin2=150, rmargin=10, spacing1=2, spacing3=4)
         
         # Received Messages (White - Left Side)
         self.chat.tag_configure("msg_recv", justify="left", foreground="#111b21", background="#ffffff", 
