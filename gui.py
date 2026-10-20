@@ -3,7 +3,7 @@ from datetime import datetime
 from tkinter import filedialog, messagebox, ttk
 from client import ChatClient
 
-BG="#f0f2f5"; BLUE="#008069"; INK="#111b21"; MUTED="#667781"
+BG="#f9fd0c"; BLUE="#008069"; INK="#111b21"; MUTED="#667781"
 
 class LANChatGUI:
     def __init__(self,root):
