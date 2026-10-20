@@ -3,7 +3,7 @@ from datetime import datetime
 from tkinter import filedialog, messagebox, ttk
 from client import ChatClient
 
-BG="#0a0a00"; BLUE="#008069"; INK="#111b21"; MUTED="#FF9640"
+BG="#f5f5f0"; BLUE="#008069"; INK="#111b21"; MUTED="#667781"
 
 class LANChatGUI:
     def __init__(self,root):
@@ -67,7 +67,7 @@ class LANChatGUI:
         self.chat.pack(side="left",fill="both",expand=True); scroll.pack(side="right",fill="y")
         
         # Configure WhatsApp Style Formatting Tags
-        self.chat.tag_configure("system", justify="center", foreground="#54656f", font=("Segoe UI", 9, "italic"), spacing1=6, spacing3=6)
+        self.chat.tag_configure("system", justify="center", foreground="#2df078", font=("Segoe UI", 9, "italic"), spacing1=6, spacing3=6)
         self.chat.tag_configure("private", foreground="#861da8")
         
         # Sent Messages (Green - Right Side)
